@@ -1,7 +1,7 @@
 # MAG-A
 
 Stat 154 Final Project
-Classification of Hillary Email!! (Topic modelling——hard,forget it==)
+Classification of Hillary Email!! (Topic modelling——hard, forget it==)
 
 - Training Set 3000 email, Label sender. Word feature matrix. [Classifying the sender]
 Tips:
