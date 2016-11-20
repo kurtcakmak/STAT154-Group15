@@ -130,16 +130,20 @@ def makeFrame2(Matrix, dictionary, unique_words):
 	return(Matrix)
 
 #a=makeFrame(Matrix, dictionary, unique_words)
-a=makeFrame2(Matrix, dictionary, unique_words)
-with open("output.csv", "w") as f:
+a=makeFrame(Matrix, dictionary, unique_words)
+with open("output1.csv", "w") as f:
+    writer = csv.writer(f)
+    writer.writerows(unique_words)
+with open("output2.csv", "w") as f:
     writer = csv.writer(f)
     writer.writerows(a)
 #data_frame = pd.DataFrame(a)
 #data_frame.to_csv("154data.csv", sep='\t')
 
-print(a)
+#print(a)
 #print(len(a[0]))
-#print(a[a>0])
+b=a[0]
+print(b[b>0])
 #print(len(a))
 
 count = 0
