@@ -16,3 +16,4 @@ Tips:
 - Run your project, run a test set and try to get better fit than the training test. 
 
 
+acc:0.799485861182519
